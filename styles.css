@@ -1,10 +1,43 @@
 * {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8a70b9;
+}
+
+p {
+    padding: 20px;
+    color: white;
+    font-size: 19px;
 }
 
 h1 {
-    background-color: #9970e4;
+    background-color: #8054d2;
     padding: .6em;
     text-align: center;
     color: white;
 }
+
+.home-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color:#6f46ba
+}
+
+.home-links a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    padding: .4em;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #b18df3;
+    text-align: center;
+}
+
